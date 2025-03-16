@@ -7,5 +7,5 @@ def test_game_over_666():
     return True
 
 def test_game_over_other():
-    return
+    return False
     
