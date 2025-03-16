@@ -7,7 +7,7 @@ def solution():
     
 testcases = [
     # s, p, expected_res
-    ["', "", True],
+    ["", "", True],
     ["aa", "a", False],
     ["aa", "a*", True],
     ["ab", ".*", True],
