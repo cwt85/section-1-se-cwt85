@@ -1,11 +1,11 @@
 from judge_code import game_over
 
 def test_game_over_0():
-    return True
+   assert game_over(0)==True
 
 def test_game_over_666():
-    return True
+    assert game_over(666)==True
 
 def test_game_over_other():
-    return False
+    assert game_over(55)==False
     
