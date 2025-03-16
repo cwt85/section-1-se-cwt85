@@ -2,3 +2,10 @@ version: '3'
 
 services:
   web:
+    build: ./web
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/usr/share/nginx/html
+    image: my-webpage:latest
+    container_name: my-webpage-container
