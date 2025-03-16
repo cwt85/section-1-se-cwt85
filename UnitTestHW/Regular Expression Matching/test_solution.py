@@ -1,5 +1,5 @@
 import pytest
-from horrible_fizzbuzz import Solution
+from solution import Solution
 
 @pytest.fixture
 def solution():
