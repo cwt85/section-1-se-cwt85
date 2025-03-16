@@ -23,5 +23,5 @@ def test_sp(solution,s,p,expected):
 
 @pytest.mark.xfail
 def test_broken_solution(solution):
-    assert solution.isMatch() == True
+    assert solution.isMatch("a",".*.") == True
 
